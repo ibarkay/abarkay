@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+.background {
+	background-image: url(../img/IMG_5640.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+* {
+	font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+	* {
+		font-size: 6px;
+	}
+}
